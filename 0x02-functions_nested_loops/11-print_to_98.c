@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_to_98 - Entry point
  *
@@ -20,7 +21,7 @@ void print_to_98(int n)
 	else
 	{
 		while (n < 98)
-			print("%d, ", n++);
-		print("%d\n", n);
+			printf("%d, ", n++);
+		printf("%d\n", n);
 	}
 }
