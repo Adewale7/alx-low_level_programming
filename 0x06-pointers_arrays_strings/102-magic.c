@@ -1,16 +1,20 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Description: a dream doesn't become reality through magic.
+ *
+ *Return: no Return (0)
+ */
+
+
 int main(void)
-
 {
-
 	int n;
 
 	int a[5];
 
 	int *p;
-
-
 
 	a[2] = 1024;
 
@@ -32,4 +36,6 @@ int main(void)
 	printf("a[2] = %d\n", a[2]);
 
 	return (0);
+
 }
+
